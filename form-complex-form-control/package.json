@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/form-complex-form-control",
+  "version": "1.0.0",
+  "description": "Esto muestra cómo usar múltiples elementos en `Form.Item`.`<Form.Item name = \"field\"/>` solo unirá funciones de formulario a sus elementos secundarios directos, como envolver directamente Input / Select. Si hay algunas decoraciones de copia o estilo antes y después del control, o si hay varios controles en un elemento de formulario, puede usar el `Form.Item` incorporado. Puede personalizar el estilo de `Form.Item` para el diseño en línea, o agregar `noStyle` como un componente de enlace sin estilo puro (similar a `getFieldDecorator` en 3.x). \n\n```diff \n- <Form.Item label = \"Field\" name = \"field\"> \n- <Input /> \n- </Form.Item> \n + <Form .Item label = \"Field\"> \n + <Form.Item name = \"field\" noStyle> <Input /> </ Form.Item> // El formulario solo estará vinculado por envoltura directa \n + <span> descripción </span> \n + </Form.Item> \n``` \n\n Aquí hay tres escenarios típicos: \n\n- `Nombre de usuario`: hay una copia de descripción u otros componentes detrás del cuadro de entrada, en el` Use `<Form.Item name = \" field \"noStyle />` en Form.Item` para vincular el control secundario correspondiente. \n- `Dirección`: Hay dos controles, use dos` <Form.Item name = \"field\" noStyle /> `en` Form.Item` para enlazar los controles correspondientes respectivamente. \n- `Fecha de nacimiento`: hay dos controles en línea, el mensaje de error muestra cada control, use dos` <Form.Item name = \"field\" /> `para vincular los controles correspondientes respectivamente y modificar el` style` Hazlo en línea. \n\n> Nota, no especifique el atributo `name` en el Formulario. El elemento correspondiente a la etiqueta, este elemento solo sirve como diseño. \n\nPara métodos de reutilización y empaquetado más complejos, consulte la siguiente demostración de \"Controles de formularios personalizados\".",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

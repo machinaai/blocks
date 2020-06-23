@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/form-customized-form-controls",
+  "version": "1.0.0",
+  "description": "Los controles de formulario personalizados o de terceros también se pueden usar con el componente Formulario. Siempre que el componente siga la siguiente convención: \n\n> -Proporcione la propiedad controlada `value` u otro nombre con el mismo valor que [` valuePropName`] (http://ant.design/components/form/#getFieldDecorator-parameter) Propiedad. \n> -Proporcione el evento con el mismo nombre que el valor del evento `onChange` o [` trigger`] (http://ant.design/components/form/#getFieldDecorator-parameter).",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

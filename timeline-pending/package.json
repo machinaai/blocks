@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/timeline-pending",
+  "version": "1.0.0",
+  "description": "Cuando el estado de la tarea está sucediendo y todavía está en proceso de grabación, el nodo fantasma se puede usar para representar el nodo de tiempo actual. Cuando pendiente es verdadera, se muestra el nodo fantasma. Si está pendiente es un elemento Reaccionar, se puede usar para personalizar el contenido del nodo, y pendienteDot se puede usar para Personaliza su punto de pivote. El atributo inverso se utiliza para controlar la clasificación de los nodos. Cuando es falso, se organiza en orden positivo, y cuando es verdadero, se organiza en orden inverso.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/table-jsx",
+  "version": "1.0.0",
+  "description": "Utilice la API de estilo JSX (introducida después de 2.5.0) \n\n> Esto es solo un azúcar sintáctico que describe `columnas`, por lo que no puede envolver` Column` y `ColumnGroup` con otros componentes.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

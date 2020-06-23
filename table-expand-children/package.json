@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/table-expand-children",
+  "version": "1.0.0",
+  "description": "La tabla admite la visualización de datos de árbol. Cuando hay un campo `children` en los datos, se mostrará automáticamente como una tabla de árbol. Si no es necesario o configurado como otro campo, se puede configurar con` childrenColumnName`. \n\nPuedes configurar indentSize para controlar el ancho de sangría de cada capa. \n\n> Nota: La selección de asociación recursiva de datos primarios y secundarios aún no es compatible.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/table-head",
+  "version": "1.0.0",
+  "description": "Para filtrar una columna de datos, use el atributo `filtros` de la columna para especificar la columna que necesita filtrar el menú,` onFilter` para filtrar los datos actuales y `filterMultiple` para especificar selección múltiple y selección única. \n\nPara ordenar una columna de datos, puede iniciar el botón de clasificación especificando la función de clasificación de la columna. `sorter: function (rowA, rowB) {...}`, rowA y rowB son las dos filas de datos para comparar. \n\n`sortDirections: ['ascend' | 'descend'] `cambia el método de clasificación disponible para cada columna, cambia en orden de acuerdo con el contenido de la matriz al cambiar la clasificación y surte efecto en todas las columnas cuando se establece en los accesorios de la mesa. \n\nUtilice el atributo `defaultSortOrder` para establecer el orden de clasificación predeterminado de las columnas.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

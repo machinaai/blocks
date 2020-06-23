@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/table-ajax",
+  "version": "1.0.0",
+  "description": "Este ejemplo muestra cómo leer y mostrar datos del servidor a través de un método simple de lectura ajax, con funciones como filtrado, clasificación y carga de páginas. Los desarrolladores pueden acceder a otros métodos de procesamiento de datos ellos mismos. \n\n Además, este ejemplo también muestra cómo el servidor implementa la función de filtrado y clasificación. La columna no necesita especificar funciones específicas de `onFilter` y` sorter`, sino que envía los parámetros de filtrado y clasificación al servidor. tratar con. \n\n ** Tenga en cuenta que este ejemplo utiliza [Interfaz analógica] (https://randomuser.me), los datos de visualización pueden ser inexactos, abra el panel de red para ver la solicitud. **",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

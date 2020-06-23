@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/select-size",
+  "version": "1.0.0",
+  "description": "Tres cuadros de selección de tamaño, cuando el tamaño es `grande` y` pequeño`, la altura del cuadro de entrada es `40px` y` 24px`, la altura predeterminada es `32px`.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

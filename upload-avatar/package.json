@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/upload-avatar",
+  "version": "1.0.0",
+  "description": "Haga clic para cargar el avatar del usuario y use `beforeUpload` para limitar el formato y el tamaño de las imágenes cargadas por el usuario. \n\n> El valor de retorno de `beforeUpload` puede ser una promesa para admitir el procesamiento asincrónico, como la verificación del lado del servidor, etc.: [ejemplo] (http://react-component.github.io/upload/examples/beforeUpload.html )",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

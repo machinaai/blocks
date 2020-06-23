@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/form-validate-static",
+  "version": "1.0.0",
+  "description": "Proporcionamos `validateStatus`` help` `hasFeedback` y otros atributos, puede definir el momento y el contenido de la verificación sin Formulario. \n\n1. `validateStatus`: verifica el estado, el éxito opcional ',' advertencia ',' error ',' validando '. \n2. `hasFeedback`: se usa para agregar un ícono de comentarios al cuadro de entrada. \n3. `help`: Establecer copia de verificación.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/form-form-context",
+  "version": "1.0.0",
+  "description": "Use `Form.Provider` para procesar datos entre formularios. En este ejemplo, el botón de confirmación de Modal está fuera del formulario, y la función de envío del formulario se llama a través del método `form.submit`. Por el contrario, se recomienda usar `<Button htmlType = \"submit\"/>` para llamar a la lógica de envío nativa de la web.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

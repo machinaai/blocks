@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/list-infinite-load",
+  "version": "1.0.0",
+  "description": "Combinado con [react-infinite-scroller] (https://github.com/CassetteRocks/react-infinite-scroller) para realizar la lista de carga automática de desplazamiento.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

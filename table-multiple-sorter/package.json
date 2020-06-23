@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/table-multiple-sorter",
+  "version": "1.0.0",
+  "description": "`column.sorter` Admite el campo `múltiple` para configurar la prioridad de clasificación de varias columnas. Al configurar la lógica de clasificación a través de `sorter.compare`, solo puede iniciar la forma interactiva de clasificación de columnas múltiples al no configurar esta función.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

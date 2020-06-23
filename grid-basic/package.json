@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/grid-basic",
+  "version": "1.0.0",
+  "description": "De apilamiento a disposición horizontal. \n\nCon un solo conjunto de componentes de cuadrícula `Fila` y` Col`, se puede crear un sistema de cuadrícula básico y todas las columnas (Col) se deben colocar en `Fila`.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/form-control-ref",
+  "version": "1.0.0",
+  "description": "Recomendamos usar `Form.useForm` para crear campos de datos de formulario para el control. Si está bajo el componente de clase, también puede obtener el campo de datos a través de `ref`.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/table-fixed-columns",
+  "version": "1.0.0",
+  "description": "Para los datos con una gran cantidad de columnas, puede arreglar las columnas frontal y posterior y desplazarse horizontalmente para ver otros datos. Debe usarlo con `scroll.x`. \n\n> Si el encabezado de la columna no está alineado con el contenido o hay columnas duplicadas, especifique el ancho del ancho de ** columna fija **. Si el ancho especificado no tiene efecto o si hay un espacio vertical blanco, intente sugerir dejar una columna sin ancho para adaptarse al diseño flexible, o verifique si hay [campos continuos demasiado largos que destruyen el diseño] \n>\n> Se recomienda especificar `scroll.x` como un valor fijo o porcentaje mayor que el ancho de la tabla. Tenga en cuenta que la suma de los anchos de columna no fijos no debe exceder `scroll.x`. \n\n ** Nota: la columna fija de la versión v4 se implementa mediante sticky, IE 11 se degradará a desplazamiento horizontal. **",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

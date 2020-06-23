@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/form-control-hooks",
+  "version": "1.0.0",
+  "description": "Use `Form.useForm` para interactuar con los campos de datos del formulario. \n\n> Tenga en cuenta que `useForm` es una implementación de [React Hooks] (https://reactjs.org/docs/hooks-intro.html) y solo se puede usar para componentes de función. Consulte el siguiente ejemplo para componentes de clase.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

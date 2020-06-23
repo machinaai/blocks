@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/form-global-state",
+  "version": "1.0.0",
+  "description": "A través de `onFieldsChange` y` fields`, puede almacenar los datos del formulario en el componente superior o [Redux] (https://github.com/reactjs/redux), [dva] (https://github.com/dvajs/ dva), puede consultar [ejemplo de formulario de campo-rc] (https://rc-field-form.react-component.now.sh/?selectedKind=rc-field-form&selectedStory=StateForm-redux&full=0&addons= 1 & stories = 1 & panelRight = 0 & addonPanel = storybook% 2Factions% 2Factions-panel). \n\n ** Nota: ** Almacene los datos del formulario en un contenedor externo [no es una buena práctica] (https://github.com/reduxjs/redux/issues/1287#issuecomment-175351978), evite si no es necesario utilizar.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

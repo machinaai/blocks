@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/table-fixed-columns-header",
+  "version": "1.0.0",
+  "description": "Adecuado para mostrar grandes cantidades de datos y columnas de datos al mismo tiempo. \n\n> Si el encabezado de la columna no está alineado con el contenido o hay columnas duplicadas, especifique el ancho del ancho de ** columna fija **. Si el ancho especificado no tiene efecto o si hay un espacio vertical blanco, intente sugerir dejar una columna sin ancho para adaptarse al diseño flexible, o verifique si hay [campos continuos demasiado largos que destruyen el diseño] (https://github.com/ant-design / ant-design / issues / 13825 # issuecomment-449889241). \n>\n> Se recomienda especificar `scroll.x` como un valor fijo o porcentaje mayor que el ancho de la tabla. Tenga en cuenta que la suma de los anchos de columna no fijos no debe exceder `scroll.x`.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

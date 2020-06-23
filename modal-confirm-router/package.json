@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/modal-confirm-router",
+  "version": "1.0.0",
+  "description": "Use `Modal.destroyAll()` para destruir la ventana de confirmación emergente. Usualmente se usa en el monitoreo de rutas, para tratar el problema de que las rutas hacia adelante y hacia atrás no pueden destruir el cuadro de diálogo de confirmación.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

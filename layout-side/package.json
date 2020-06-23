@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/layout-side",
+  "version": "1.0.0",
+  "description": "Diseño de dos columnas en el lateral. Cuando el espacio horizontal de la página es limitado, la navegación lateral se puede contraer. \n\n La navegación lateral utiliza una estructura izquierda-derecha en el diseño de la página. Generalmente, la navegación principal se coloca en una posición fija en el lado izquierdo de la página, y el menú auxiliar se coloca en la parte superior del área de trabajo. El contenido es adaptable de acuerdo con la terminal del navegador, lo que puede mejorar la tasa de utilización del espacio horizontal, pero el diseño de página completo es inestable. El modo de navegación lateral es altamente extensible. Los elementos de navegación de nivel 1, 2 y 3 se pueden mostrar de manera más fluida y relacionada. Al mismo tiempo, la navegación lateral se puede arreglar, lo que permite a los usuarios localizar y cambiar rápidamente entre operaciones y navegación. La posición actual tiene una alta eficiencia operativa. Pero este tipo de espacio para navegar por el contenido de la página horizontal será sacrificado.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

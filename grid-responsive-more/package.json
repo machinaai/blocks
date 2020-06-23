@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/grid-responsive-more",
+  "version": "1.0.0",
+  "description": "El atributo `span`` pull` `push`` offset` `order` se puede utilizar incrustándolo en el atributo` xs` `sm`` md` `lg`` xl` `xxl`. \n\nDonde `xs = {6}` es equivalente a `xs = {{span: 6}}`.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/form-advanced-search",
+  "version": "1.0.0",
+  "description": "La disposición de formulario en forma de cuadrícula de tres columnas se usa a menudo para la búsqueda avanzada de tablas de datos. \n\nHay algunos códigos de estilo personalizados. Debido a que la longitud de la etiqueta de entrada es incierta, debe ajustarse de acuerdo con la situación específica.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

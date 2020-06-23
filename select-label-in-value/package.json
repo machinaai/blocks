@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/select-label-in-value",
+  "version": "1.0.0",
+  "description": "Por defecto, solo se puede obtener el valor en `onChange`. Si necesita obtener la etiqueta de texto del nodo seleccionado, puede usar el atributo` labelInValue`. \n\nLa etiqueta del elemento seleccionado se envolverá en valor y se pasará a `onChange` y otras funciones, en cuyo caso el valor es un objeto.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

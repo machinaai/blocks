@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/button-loading",
+  "version": "1.0.0",
+  "description": "Agregue el atributo `loading` para hacer que el botón esté en estado de carga, y los dos últimos botones ingresarán en el estado de carga después de hacer clic.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

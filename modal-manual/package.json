@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/modal-manual",
+  "version": "1.0.0",
+  "description": "Actualice y cierre manualmente el cuadro de diálogo creado por el método `Modal.method`.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

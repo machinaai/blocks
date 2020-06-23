@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/badge-colorful",
+  "version": "1.0.0",
+  "description": "Soporta múltiples estilos de logotipo preestablecidos para usar en diferentes escenarios. Si el valor predeterminado puede establecerce en un valor de color específico.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

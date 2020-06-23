@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/upload-picture-style",
+  "version": "1.0.0",
+  "description": "El archivo cargado es una imagen, que puede mostrar miniaturas locales. `IE8/9` no es compatible con la visualización en miniatura del navegador ([Ref] (https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsDataURL)), puede escribir el atributo `thumbUrl` en lugar.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

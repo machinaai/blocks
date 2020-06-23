@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/table-row-selection-and-operation",
+  "version": "1.0.0",
+  "description": "Opere después de la selección, borre la selección una vez completada y controle los elementos seleccionados a través de `rowSelection.selectedRowKeys`.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

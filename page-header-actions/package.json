@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/page-header-actions",
+  "version": "1.0.0",
+  "description": "Use el área de operación y personalice los subnodos, adecuados para usar cuando necesite mostrar información compleja para ayudar a los usuarios a comprender rápidamente la información y las operaciones de esta página.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

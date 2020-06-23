@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/radio-radiogroup-with-name",
+  "version": "1.0.0",
+  "description": "Puede configurar el parámetro `name` para Radio.Group y asignar el mismo atributo  `name` a los elementos de entrada en la combinación, de modo que el navegador realmente pueda tratar a Radio bajo Radio.Group como un grupo (por ejemplo, siempre puede usar las teclas de **flecha** para Cambiar opciones dentro del mismo grupo).",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

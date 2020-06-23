@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/button-ghost",
+  "version": "1.0.0",
+  "description": "El botón fantasma invierte el contenido del botón, y el fondo se vuelve transparente, a menudo usado en un fondo coloreado.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

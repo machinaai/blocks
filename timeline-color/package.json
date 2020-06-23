@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/timeline-color",
+  "version": "1.0.0",
+  "description": "El color del círculo, el verde se usa para el estado completado y exitoso, el rojo indica el estado de alarma o error, el azul indica el estado actual u otro estado predeterminado y el gris indica el estado incompleto o inválido.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

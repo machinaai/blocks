@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/button-danger",
+  "version": "1.0.0",
+  "description": "Después de 4.0, Danger se convirtió en un atributo de botón en lugar de un tipo de botón.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

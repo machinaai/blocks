@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/config-provider-locale",
+  "version": "1.0.0",
+  "description": "Los componentes que necesitan soporte de internacionalización se enumeran aquí. Puede cambiar de idioma en la demostración.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

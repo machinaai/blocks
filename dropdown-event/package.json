@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/dropdown-event",
+  "version": "1.0.0",
+  "description": "Al hacer clic en un elemento del menú, se activará un evento y el usuario puede realizar diferentes operaciones a través de la tecla del elemento del menú correspondiente.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

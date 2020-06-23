@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/alert-error-boundary",
+  "version": "1.0.0",
+  "description": "Componente wrapper amigable [manejo de errores React] (https://reactjs.org/blog/2017/07/26/error-handling-in-react-16.html).",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

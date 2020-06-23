@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/table-colspan-rowspan",
+  "version": "1.0.0",
+  "description": "El encabezado de la tabla solo admite la fusión de columnas, use colSpan en la columna para configurar. \n\nLa tabla admite la combinación de fila / columna. Cuando el atributo de celda colSpan o rowSpan en render se establece en 0, la tabla establecida no se representará.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

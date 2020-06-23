@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/table-ellipsis",
+  "version": "1.0.0",
+  "description": "La configuración de `column.ellipsis` permite que el contenido de la celda se omita automáticamente de acuerdo con el ancho. \n\n> La abreviatura del encabezado de columna no se admite actualmente para su uso con el filtrado de clasificación.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

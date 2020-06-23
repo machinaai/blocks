@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/list-infinite-virtualized-load",
+  "version": "1.0.0",
+  "description": "Combinado con [react-virtualized] (https://github.com/bvaughn/react-virtualized) para realizar la carga de desplazamiento de una lista infinitamente larga, con virtualización ([virtualization] (https://blog.jscrambler.com/optimizing-react-rendering-through-virtualization/)), puede mejorar el rendimiento de listas largas cuando la cantidad de datos es grande. \n\n `virtualizado` es una tecnología utilizada en grandes listas de datos, principalmente para reducir la representación innecesaria de áreas invisibles para mejorar el rendimiento, especialmente cuando la cantidad de datos es particularmente obvia en los miles de datos. [Más información] (https://blog.jscrambler.com/optimizing-react-rendering-through-virtualization/)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

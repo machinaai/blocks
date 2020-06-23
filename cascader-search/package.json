@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/cascader-search",
+  "version": "1.0.0",
+  "description": "Puede buscar opciones directamente y elegir. \n\n> `Cascader [showSearch]` actualmente no es compatible con la búsqueda del lado del servidor",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

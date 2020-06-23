@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/modal-footer",
+  "version": "1.0.0",
+  "description": "Para un ejemplo más complicado, el botón en el pie de página está personalizado. Después de hacer clic en Enviar, ingresa al estado de carga y se cierra cuando finaliza. \n\nCuando no necesite confirmar el botón de cancelación de forma predeterminada, puede establecer `pie de página` en` nulo`.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/grid-gutter",
+  "version": "1.0.0",
+  "description": "La cuadrícula a menudo necesita cooperar con el intervalo. Puede usar el atributo `gutter` de` Row`. Recomendamos usar `(16 + 8n) px` como el intervalo de la cuadrícula. (n es un número natural) \n\n Si desea admitir la capacidad de respuesta, puede escribirlo como `{xs: 8, sm: 16, md: 24, lg: 32}`. \n\nSi se requiere espacio vertical, se puede escribir como una matriz `[espacio horizontal, espacio vertical]` `[16, {xs: 8, sm: 16, md: 24, lg: 32}]`. \n\n> El espacio vertical de forma de matriz es compatible después de `3.24.0`.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

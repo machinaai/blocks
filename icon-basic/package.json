@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/icon-basic",
+  "version": "1.0.0",
+  "description": "Consulte el componente de icono a través de `@@ant-design/icons`. Los componentes de icono de diferentes temas se nombran como el nombre del icono más el tema como sufijo. También puede establecer la propiedad` spin` para lograr el efecto de rotación de animación.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

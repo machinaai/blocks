@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/slider-mark",
+  "version": "1.0.0",
+  "description": "Use el atributo `marks` para marcar el control deslizante segmentado y use` value`/`defaultValue` para especificar la posición del control deslizante. Cuando `included = false`, indica que hay una relación paralela entre diferentes etiquetas. Cuando `step = null`, el valor opcional de Slider es solo la parte marcada por` marks`.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

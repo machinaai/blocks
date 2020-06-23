@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/table-fixed-header",
+  "version": "1.0.0",
+  "description": "Es conveniente mostrar una gran cantidad de datos en una página. \n\nEl atributo de ancho de la columna debe especificarse; de ​​lo contrario, el encabezado de la columna y el contenido pueden no estar alineados. Si el ancho especificado no tiene efecto o si hay un espacio vertical blanco, intente sugerir dejar una columna sin ancho para adaptarse al diseño flexible, o verifique si hay [campos continuos demasiado largos que destruyen el diseño].",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

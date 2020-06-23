@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/upload-basic",
+  "version": "1.0.0",
+  "description": "En el estilo clásico, el usuario hace clic en el botón para abrir un cuadro de selección de archivo.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

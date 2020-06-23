@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/tag-colorful",
+  "version": "1.0.0",
+  "description": "Hemos agregado una variedad de estilos de etiquetas de color preestablecidos para usar en diferentes escenas. Si el valor predeterminado no satisface sus necesidades, puede establecerlo en un valor de color específico.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

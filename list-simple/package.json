@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/list-simple",
+  "version": "1.0.0",
+  "description": "La lista tiene tres tamaños: grande, mediano y pequeño. \n\nAjuste los botones en grande y pequeño estableciendo `size` en` large` y `small` respectivamente. Si no se establece `size`, el tamaño es mediano. \n\nPuede personalizar el encabezado y la cola de la lista configurando `header` y` footer`.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

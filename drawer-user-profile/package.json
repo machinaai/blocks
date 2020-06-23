@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/drawer-user-profile",
+  "version": "1.0.0",
+  "description": "Úselo cuando necesite obtener una vista previa rápida del contorno del objeto, haga clic en el área de la máscara para cerrar.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

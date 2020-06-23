@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/notification-duration",
+  "version": "1.0.0",
+  "description": "Personalice el retraso para que el cuadro de notificación se cierre automáticamente. El valor predeterminado es `4.5s`. Para cancelar el cierre automático, simplemente configure el valor en` 0`.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

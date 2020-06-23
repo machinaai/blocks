@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/layout-top-side-2",
+  "version": "1.0.0",
+  "description": "También tiene una barra de navegación superior y lateral, la diferencia es que no hay margen en ambos lados, y se usa principalmente para sitios web basados ​​en aplicaciones.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

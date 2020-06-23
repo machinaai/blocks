@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/form-without-form-create",
+  "version": "1.0.0",
+  "description": "`Form` Tiene la función de recopilación y verificación automática de datos, pero si no necesita esta función o si el comportamiento predeterminado no puede satisfacer las necesidades comerciales, puede elegir procesar los datos usted mismo.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

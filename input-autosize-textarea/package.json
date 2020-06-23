@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/input-autosize-textarea",
+  "version": "1.0.0",
+  "description": "El atributo `autoSize` se aplica a los nodos` textarea`, y solo la altura cambiará automáticamente. Además, `autoSize` se puede establecer como un objeto, especificando el número mínimo de líneas y el número máximo de líneas.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

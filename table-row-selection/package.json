@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/table-row-selection",
+  "version": "1.0.0",
+  "description": "La primera columna es el cuadro de selección vinculado. El tipo de selección se puede especificar a través del atributo `rowSelection.type`, que por defecto es` checkbox`. \n\n> De forma predeterminada, haga clic en la casilla de verificación para activar el comportamiento de selección. Si necesita hacer clic en la fila para activar, puede consultar el ejemplo: <https://codesandbox.io/s/000vqw38rl>",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

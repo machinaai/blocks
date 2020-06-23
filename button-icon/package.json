@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/button-icon",
+  "version": "1.0.0",
+  "description": "Cuando necesite incrustar un `Icon` en` Button`, puede establecer la propiedad `icon` o usar el componente` Icon` directamente en `Button`. \n\nSi desea controlar la ubicación específica de `Icon`, solo puede usar el componente` Icon` directamente, no el atributo `icon`.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

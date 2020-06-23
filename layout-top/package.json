@@ -1,0 +1,17 @@
+{
+  "name": "@blocks/layout-top",
+  "version": "1.0.0",
+  "description": "El diseño más básico 'layout-top'. \n\nLa navegación principal general se coloca en la parte superior de la página, de izquierda a derecha: logotipo, elementos de navegación de primer nivel, menú auxiliar (usuario, configuración, notificaciones, etc.). Por lo general, el contenido se coloca en un tamaño fijo (por ejemplo: 1200px), todo el diseño de la página es estable y no se ve afectado por la pantalla del terminal del usuario; la estructura de los niveles superior e inferior se ajusta al hábito del usuario de navegar hacia arriba y hacia abajo, y también es un modo de navegación de sitio web más clásico. La forma en que la página se divide hacia arriba y hacia abajo mejora la eficiencia de mostrar información en el área de trabajo principal, pero hay algunos sacrificios en el espacio vertical. Además, debido a la limitación del espacio horizontal de la barra de navegación, no es adecuado para estructuras de información con muchos elementos de navegación de primer nivel.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/machinaai"
+  },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}
