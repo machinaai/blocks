@@ -1,0 +1,15 @@
+{
+  "name": "@blocks/icon-scriptUrl",
+  "version": "1.0.0",
+  "description": "Después de @ ant-design / icons @ 4.1.0`, `scriptUrl` puede hacer referencia a múltiples recursos y los usuarios pueden administrar de manera flexible los iconos [iconfont.cn] (http://iconfont.cn/). Si el icono del recurso tiene el mismo nombre, se sobrescribirá en el orden de la matriz.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/machinaai" },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

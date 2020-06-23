@@ -1,0 +1,15 @@
+{
+  "name": "@blocks/date-picker-select-in-range",
+  "version": "1.0.0",
+  "description": "Aquí hay un ejemplo de cómo usar `onCalendarChange` y` disabledDate` para limitar la selección dinámica del rango de fechas.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/machinaai" },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}

@@ -15,16 +15,16 @@ const filterFolders = ['__tests__', '_util'];
 const fetchComponent = async componentName => {
   const componentPath = path.join(componentsDir, componentName);
   const demoPath = path.join(componentPath, 'demo');
-  const demoIndexCNFilePath = path.join(componentPath, 'index.zh-CN.md');
+  const demoIndexCNFilePath = path.join(componentPath, 'index.en-US.md');
   let demoFiles = [];
   try {
     const demoIndexCNFileText = await fs.readFile(demoIndexCNFilePath, 'utf8');
 
     let componentType = '';
     if (componentName === 'table') {
-      componentType = '表格';
+      componentType = 'Table';
     } else if (componentName === 'form') {
-      componentType = '表单';
+      componentType = 'Form';
     } else {
       componentType = parseComponentType(demoIndexCNFileText);
     }

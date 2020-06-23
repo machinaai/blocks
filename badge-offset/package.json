@@ -1,0 +1,15 @@
+{
+  "name": "@blocks/badge-offset",
+  "version": "1.0.0",
+  "description": "Establezca el desplazamiento de la posición del punto de estado, el formato es `[izquierda, arriba]`, lo que significa el desplazamiento del punto de estado desde la izquierda y la parte superior de la posición predeterminada.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-c": "node src/index.js -c",
+    "dev": "umi dev",
+    "test": "jest --config .jest.js --no-cache"
+  },
+  "license": "MIT",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/machinaai" },
+  "dependencies": { "@ant-design/icons": "^4.0.2", "antd": "^4.0.0" }
+}
